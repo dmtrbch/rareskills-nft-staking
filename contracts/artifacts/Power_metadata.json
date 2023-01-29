@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "https://github.com/bancorprotocol/contracts Modified from the original by Slava Balasanov & Tarrence van As Split Power.sol out from BancorFormula.sol https://github.com/bancorprotocol/contracts/blob/c9adc95e82fdfb3a0ada102514beb8ae00147f5d/solidity/contracts/converter/BancorFormula.sol Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements; and to You under the Apache License, Version 2.0. \"",
+			"kind": "dev",
+			"methods": {},
+			"title": "Power function by Bancor",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Power.sol": "Power"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Power.sol": {
+			"keccak256": "0xa868e716f670b28db2ad57df335745b287e3e1dc983a1749f19904ab925e30a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://813e2646aeedf99e4727e438c63a010d55892a1882dcb975adc61b7587066d22",
+				"dweb:/ipfs/QmPrjpA67NmXP8BRGixzuA5AJTTE7vbkSw3W2RopD8fDzR"
+			]
+		}
+	},
+	"version": 1
+}
